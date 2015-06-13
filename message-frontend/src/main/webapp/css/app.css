@@ -1,0 +1,16 @@
+p {
+    font-size: 1em !important;
+}
+
+.reload {
+    background-color: #eee;
+}
+
+.divider {
+    height: 1px;
+    width: 100%;
+    display: block;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
