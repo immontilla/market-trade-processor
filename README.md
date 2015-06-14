@@ -12,20 +12,20 @@ cd message-processor
 Create database tables
 ----------------------
 ```
-$mvn clean compile flyway:migrate
+mvn clean compile flyway:migrate
 ```
 
 Generate jar Package
 -------------------------
 ```
-$mvn clean install package
+mvn clean install package
 ```
 
 Create messages data
 ---------------------
 
 ```
-$java -jar target/message-processor-1.0-SNAPSHOT.jar create_messages config.yml
+java -jar target/message-processor-1.0-SNAPSHOT.jar create_messages config.yml
 
 Creating messages:
 
@@ -47,7 +47,7 @@ Remember: *more messages you create, better images and reports you get.*
 Start App
 -------------------------
 ```
-$java -jar target/message-processor-1.0-SNAPSHOT.jar server config.yml 
+java -jar target/message-processor-1.0-SNAPSHOT.jar server config.yml 
 ```
 
 
@@ -124,19 +124,19 @@ cd message-frontend
 Create webapp
 ----------------------
 ```
-$mvn clean install
+mvn clean install
 ```
 
 Start webapp
 -------------------------
 ```
-$mvn jetty:run
+mvn jetty:run
 ```
 
 Stop webapp
 -------------------------
 ```
-$mvn jetty:stop
+mvn jetty:stop
 ```
 
 If everything is OK, you can open the webapp at http://localhost:8998/
