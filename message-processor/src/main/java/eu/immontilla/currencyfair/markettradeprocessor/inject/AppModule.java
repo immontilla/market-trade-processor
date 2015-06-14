@@ -19,6 +19,11 @@ import eu.immontilla.currencyfair.markettradeprocessor.facade.UserFacade;
 import eu.immontilla.currencyfair.markettradeprocessor.model.Message;
 import eu.immontilla.currencyfair.markettradeprocessor.model.User;
 
+/**
+ * Dependency Injection Configuration
+ * @author immontilla
+ *
+ */
 public class AppModule extends AbstractModule {
 
     private final HibernateBundle<AppConfiguration> hibernateBundle;

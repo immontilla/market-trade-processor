@@ -30,6 +30,11 @@ import eu.immontilla.currencyfair.markettradeprocessor.model.Message;
 import eu.immontilla.currencyfair.markettradeprocessor.model.User;
 import eu.immontilla.currencyfair.markettradeprocessor.resources.MessageResource;
 
+/**
+ * Application configuration
+ * @author immontilla
+ *
+ */
 public class App extends Application<AppConfiguration> {
 
     private final HibernateBundle<AppConfiguration> hibernate;

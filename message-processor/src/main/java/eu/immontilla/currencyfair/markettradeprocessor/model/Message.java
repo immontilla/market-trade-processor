@@ -19,6 +19,11 @@ import org.hibernate.annotations.Type;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+/**
+ * Model class for trade messages
+ * @author immontilla
+ *
+ */
 @Entity
 @Table(name = "messages")
 public class Message extends BaseModel {

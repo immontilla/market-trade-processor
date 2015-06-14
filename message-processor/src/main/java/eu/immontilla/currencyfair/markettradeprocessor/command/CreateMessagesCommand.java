@@ -21,6 +21,12 @@ import eu.immontilla.currencyfair.markettradeprocessor.database.hibernate.Hibern
 import eu.immontilla.currencyfair.markettradeprocessor.database.hibernate.MessageHibernateDAO;
 import eu.immontilla.currencyfair.markettradeprocessor.model.Message;
 
+/**
+ * Command line tool to generate fake random messages
+ * @author immontilla
+ *
+ */
+
 public class CreateMessagesCommand extends ConfiguredCommand<AppConfiguration> {
 
     public CreateMessagesCommand() {

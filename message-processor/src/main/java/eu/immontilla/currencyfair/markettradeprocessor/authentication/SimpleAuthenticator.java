@@ -16,6 +16,13 @@ import com.google.common.base.Optional;
 import eu.immontilla.currencyfair.markettradeprocessor.facade.BaseFacade;
 import eu.immontilla.currencyfair.markettradeprocessor.model.User;
 
+/**
+ * Strategy class which, given a set of client-provided credentials, possibly returns an user
+ * capable of do API Calls
+ * @author immontilla
+ *
+ */
+
 public class SimpleAuthenticator implements Authenticator<BasicCredentials, User> {
 
     private final BaseFacade<User> facade;

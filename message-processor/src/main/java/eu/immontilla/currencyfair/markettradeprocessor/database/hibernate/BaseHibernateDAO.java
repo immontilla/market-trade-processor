@@ -14,6 +14,13 @@ import org.slf4j.LoggerFactory;
 
 import com.google.common.base.Optional;
 
+/**
+ * Abstract base class for Hibernate DAO classes.
+ * @author immontilla
+ *
+ * @param <T>
+ */
+
 abstract public class BaseHibernateDAO<T> extends AbstractDAO<T> {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(BaseHibernateDAO.class);

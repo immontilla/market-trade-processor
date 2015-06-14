@@ -9,6 +9,12 @@ import org.hibernate.SessionFactory;
 
 import eu.immontilla.currencyfair.markettradeprocessor.configuration.AppConfiguration;
 
+/**
+ * Guice Provider for Hibernate session factory
+ * @author immontilla
+ *
+ */
+
 public class SessionFactoryProvider implements Provider<SessionFactory> {
 
     private final HibernateBundle<AppConfiguration> hibernateBundle;

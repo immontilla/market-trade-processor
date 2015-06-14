@@ -9,6 +9,12 @@ import com.google.common.base.Optional;
 import eu.immontilla.currencyfair.markettradeprocessor.database.GenericDAO;
 import eu.immontilla.currencyfair.markettradeprocessor.model.Message;
 
+/**
+ * Hibernate DAO for message model
+ * @author immontilla
+ *
+ */
+
 public class MessageHibernateDAO extends BaseHibernateDAO<Message> implements GenericDAO<Message> {
     @Inject
     public MessageHibernateDAO(SessionFactory factory) {

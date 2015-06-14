@@ -14,6 +14,12 @@ import com.google.common.base.Strings;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Iterables;
 
+/**
+ * JsonSerialize configuration
+ * @author immontilla
+ *
+ * @param <T>
+ */
 @JsonSerialize(using = SerializedModel.Serializer.class)
 public class SerializedModel<T extends BaseModel> {
 

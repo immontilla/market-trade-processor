@@ -9,6 +9,11 @@ import javax.validation.constraints.NotNull;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+/**
+ * API configuration class
+ * @author immontilla
+ *
+ */
 public class AppConfiguration extends io.dropwizard.Configuration {
     private URI endpointUri = null;
 

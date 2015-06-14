@@ -5,6 +5,7 @@ Requires Java 8 or higher
 
 Back-end
 --------
+Change to message-processor directory (module)
 ```
 cd message-processor
 ```
@@ -116,6 +117,7 @@ Will return:
 
 Front-end
 ---------
+Change to message-frontend directory 
 ```
 cd message-frontend
 ```

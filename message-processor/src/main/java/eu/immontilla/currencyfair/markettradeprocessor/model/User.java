@@ -11,6 +11,11 @@ import javax.validation.constraints.NotNull;
 
 import org.hibernate.validator.constraints.Length;
 
+/**
+ * Model class for authorized users
+ * @author immontilla
+ *
+ */
 @Entity
 @Table(name = "users", uniqueConstraints = { @UniqueConstraint(columnNames = { "username", "email", "token" }) })
 public class User extends BaseModel {

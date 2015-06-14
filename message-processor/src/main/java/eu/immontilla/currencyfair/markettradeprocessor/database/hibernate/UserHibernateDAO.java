@@ -9,6 +9,12 @@ import com.google.common.base.Optional;
 import eu.immontilla.currencyfair.markettradeprocessor.database.GenericDAO;
 import eu.immontilla.currencyfair.markettradeprocessor.model.User;
 
+/**
+ * Hibernate DAO for user model
+ * @author immontilla
+ *
+ */
+
 public class UserHibernateDAO extends BaseHibernateDAO<User> implements GenericDAO<User> {
 
     @Inject

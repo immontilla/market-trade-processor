@@ -7,6 +7,12 @@ import com.google.common.base.Optional;
 
 import eu.immontilla.currencyfair.markettradeprocessor.model.BaseModel;
 
+/**
+ * Data Access Object template
+ * @author immontilla
+ *
+ * @param <T>
+ */
 public interface GenericDAO<T extends BaseModel> {
     public T create(T obj);
 

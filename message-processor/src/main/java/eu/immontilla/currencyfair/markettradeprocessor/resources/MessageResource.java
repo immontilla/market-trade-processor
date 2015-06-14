@@ -35,6 +35,12 @@ import eu.immontilla.currencyfair.markettradeprocessor.model.User;
 import eu.immontilla.currencyfair.markettradeprocessor.resources.exception.InternalErrorException;
 import eu.immontilla.currencyfair.markettradeprocessor.resources.exception.ResourceNotFoundException;
 
+/**
+ * Message resource for API calls
+ * @author immontilla
+ *
+ */
+
 @Path("/messages")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)

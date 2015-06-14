@@ -6,6 +6,11 @@ import org.hibernate.cfg.Configuration;
 
 import eu.immontilla.currencyfair.markettradeprocessor.configuration.AppConfiguration;
 
+/**
+ * Hibernate configuration
+ * @author immontilla
+ *
+ */
 public class HibernateConfig {
     private static DataSourceFactory dataSourceFactory;
 
