@@ -44,7 +44,7 @@ Placed in how many days before the current date?:
 ```
 Remember: *more messages you create, better images and reports you get.*
 
-Start App
+Start back-end server
 -------------------------
 ```
 java -jar target/message-processor-1.0-SNAPSHOT.jar server config.yml 
@@ -121,22 +121,22 @@ Change to message-frontend directory
 ```
 cd message-frontend
 ```
-Create webapp
+
+Create the app
 ----------------------
 ```
 mvn clean install
 ```
 
-Start webapp
+Start the app
 -------------------------
 ```
 mvn jetty:run
 ```
+If everything is OK, you can open the web app at http://localhost:8998/
 
-Stop webapp
+Stop the app
 -------------------------
 ```
 mvn jetty:stop
 ```
-
-If everything is OK, you can open the webapp at http://localhost:8998/
