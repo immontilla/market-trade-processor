@@ -133,7 +133,7 @@ Start the app
 ```
 mvn jetty:run
 ```
-If everything is OK, you can open the web app at http://localhost:8998/
+If everything is OK, you can open the web app at http://localhost:8998/ using the API REST credential
 
 Stop the app
 -------------------------
